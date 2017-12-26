@@ -1,0 +1,33 @@
+{
+    "name": "iroegbu/webpay-php",
+    "description": "Simple Webpay Integration",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iroegbu Iroegbu",
+            "email": "me@iroegbu.com"
+        }
+    ],
+    "keywords": [
+        "interswitch",
+        "webpay",
+        "payment",
+        "api",
+        "integration"
+    ],
+    "autoload": {
+        "psr-4": {
+            "iroegbu\\WebPay\\": "src/"
+        },
+        "files": [
+            "src/helpers.php",
+            "src/functions.php"
+        ]
+    },
+    "require": {
+        "php": ">=7",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
